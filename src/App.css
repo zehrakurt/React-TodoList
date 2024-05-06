@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Permanent+Marker&display=swap');
+
+
+body{
+    background-color:#ffebdd;
+    text-align: center;
+}
+
+li{
+    color:#a2583e ;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    list-style-type:none;
+}
+li:hover {
+    cursor: pointer; 
+  }
+  li::before{
+    content: "❑";
+    margin-right: 20px;
+  }
+  label{
+    font-family: "Lobster", sans-serif;
+  font-weight: 800;
+  font-style: bold;
+  font-size: 60px;
+  }
+  .bsk-1{
+    margin-bottom: 60px;
+    margin-top: 40px;
+  }
+  input{
+   width: 280px;
+   height: 40px;
+   border-radius: 10px;
+   margin-right: 10px;
+  }
+  button{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 70px;
+    border-radius: 10px;
+    background-color: #773738;
+    box-shadow: 0 5px 5px #541414, 0 9px 0 #393939, 0px 9px 10px rgba(230, 180, 180, 0.4), inset 0px 2px 9px rgba(255,255,255,0.2), inset 0 -2px 9px rgba(190, 155, 155, 0.2);
+    position: relative;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    display: inline-block;
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.2);
+    margin-bottom: 40px;
+    margin-right:20px;
+    padding-top: 12px;
+  }
